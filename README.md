@@ -6,10 +6,10 @@ This is an implementation, for authenticating applications, using git hub. Proje
 
 To get this project running, use a '.env' file with following parameters in it.
 
-CLIENT_ID=xxxxxxx
-CLIENT_SECRET=xxxxxxx
-USER_AGENT=GIT Hub Authentication
-DEV_TOKEN_EXCHANGE_URL=http://localhost:4200/api/token
+- CLIENT_ID=xxxxxxx
+- CLIENT_SECRET=xxxxxxx
+- USER_AGENT=GIT Hub Authentication
+- DEV_TOKEN_EXCHANGE_URL=http://localhost:4200/api/token
 
 ## Prerequisites
 
