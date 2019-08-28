@@ -1,7 +1,15 @@
 # git-auth
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+This is an implementation, for authenticating applications, using git hub. Project is implemented using Ember.js
+
+To get this project running, use a '.env' file with following parameters in it.
+
+CLIENT_ID=xxxxxxx
+CLIENT_SECRET=xxxxxxx
+USER_AGENT=GIT Hub Authentication
+DEV_TOKEN_EXCHANGE_URL=http://localhost:4200/api/token
 
 ## Prerequisites
 
