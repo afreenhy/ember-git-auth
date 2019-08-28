@@ -1,0 +1,6 @@
+<h1>Your Github Repositories {{model.name}}</h1>
+{{#each model as |item|}}
+  <div id="repo-name">
+    {{#link-to "contents" item.full_name}}{{item.full_name}}{{/link-to}}
+  </div>
+{{/each}}
